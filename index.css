@@ -1,3 +1,4 @@
+/*#region CSS reset*/ 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,3 +47,33 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*#endregion*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&Roboto+Mono&display=swap');
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+/*#region nav*/
+.visit {
+    background-color: #FF764E;
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+
+.involve {
+    background-color: #FFCD69;
+}
+/*#endregion*/
+
+.intro {
+    background-color: #DDB9A3;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
