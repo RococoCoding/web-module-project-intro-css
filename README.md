@@ -31,7 +31,6 @@ Follow these steps to set up and work on your project:
 ### Task 2: Minimum Viable Product
 
 Once your repository is set up, practice what you learned today to style the site according to the given design. Your complete project should look similar to the desktop image. You should take the following actions, at a minimum:
-- [ ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
 - [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
   - [ ] A round image in the header
   - [ ] Round corners on navigation and footer items
