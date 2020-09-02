@@ -73,6 +73,11 @@ nav a {
     border-radius: 25px;
     margin: 2% 2% 2% 12%;
 }
+
+nav a:active {
+    visibility: hidden;
+}
+
 nav a:hover{
     animation: bold 1s;
 }
@@ -106,10 +111,10 @@ nav a:hover{
     animation: roll 3s;
 }
 
+
 @keyframes roll {
     100% {
         transform: rotate(360deg);
-        margin-left: 120%;
     }
 }
 
@@ -159,6 +164,23 @@ h1 {
 
 .icon {
     width: 10vw;
+}
+
+.fire:hover {
+    animation: pulse 0.75s infinite;
+}
+
+@keyframes pulse {
+    50% {transform: scale(1.2, 1.2)}
+    100% {transform: scale(1, 1)}
+}
+
+.rv:hover {
+    animation: drive 2s;
+}
+
+@keyframes drive {
+    100% {margin-right: 90%;}
 }
 
 .fire-restrictions, .fee {
